@@ -12,7 +12,8 @@ jobs:
     strategy:
       matrix:
         DEVICE: [pinebook]
-        EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
+        # EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
+        EDITION: [gnome,minimal]
         BRANCH: [stable]
     steps:
       -
