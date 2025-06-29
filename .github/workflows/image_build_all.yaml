@@ -17,11 +17,11 @@ jobs:
         EDITION: [minimal]
         BRANCH: [stable]
     steps:
-      # -
-      #   id: time
-      #   uses: boredland/get-time-action@2.0.0
-      #   with:
-      #     format: '24.MM'
+      -
+        id: time
+        uses: boredland/get-time-action@2.0.0
+        with:
+          format: 'YY.MM'
       -
         id: image-build
         uses: manjaro-arm/rootfs@master
