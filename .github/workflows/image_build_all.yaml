@@ -13,7 +13,8 @@ jobs:
       matrix:
         DEVICE: [pinebook]
         # EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
-        EDITION: [gnome,minimal]
+        # EDITION: [gnome,minimal]
+        EDITION: [minimal]
         BRANCH: [stable]
     steps:
       -
